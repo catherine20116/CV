@@ -1,0 +1,271 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #32292F;
+  --green-color: #70ABAF;
+  --brown-color: #32292F;
+}
+
+/*Header*/
+
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 10px;
+  overflow: hidden;
+  top: 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#upper_line {
+  height: 1.5rem;
+  background-color: var(--green-color);
+  margin-bottom: 0.5rem;
+}
+
+nav a {
+  color: var(--green-color);
+}
+
+.left_right {
+  color: var(--green-color);
+  border-bottom: solid var(--green-color) 2px;
+  border-top: solid var(--green-color) 2px;
+  font-size: 1.6rem;
+}
+
+#name {
+  font-size: 1.8rem;
+  color: var(--brown-color);
+}
+
+#name a {
+  color: var(--brown-color);
+}
+
+/* Intro Section*/
+
+#intro_section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 70%;
+}
+
+#short_text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+#short_text h1 {
+  font-size: 1.8rem;
+}
+
+
+/*About Me*/
+
+#about_me {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--green-color);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#about_me img {
+  width: 40%;
+}
+
+#text_about {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-left: 9.7rem;
+}
+
+#text_about h1 {
+  font-size: 1.8rem;
+}
+
+
+/*Contact Me*/
+
+#contact_me {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#contact_title {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  line-height: 4rem;
+}
+
+#contact_me h1 {
+  width: 20rem;
+  font-size: 1.8rem;
+  background-color: var(--green-color);
+}
+
+#contact_text {
+  padding-left: 9.7rem;
+  padding-right: 9.7rem;
+}
+
+#contact_me img {
+  width: 1.5%;
+}
+
+/*Footer*/
+
+footer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+a {
+  color: var(--brown-color);
+}
+
+#lower_line {
+  height: 3rem;
+  background-color: var(--green-color);
+  margin-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+#lower_line ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Mobile adjust*/
+
+@media only screen and (min-width: 1023px) {
+
+  #upper_line_mob, #upper_line_mob_menu {
+    display:none;
+  }
+
+  #picture_mob {
+    display: none;
+  }
+
+  #lower_line_mob, #lower_line_mob_menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+
+  /*Upper Menu*/
+  #upper_line, .left_right, #name {
+    display:none;
+  }
+
+  #menu_items_styled {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav_item {
+    color: var(--green-color);
+    border-bottom: solid var(--green-color) 2px;
+    border-top: solid var(--green-color) 2px;
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #name_mob {
+      font-size: 1.8rem;
+      color: var(--brown-color);
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  }
+
+  .break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+  /*Inro Section*/
+
+  #intro_section {
+    display: none;
+  }
+
+  /*About Me*/
+
+  #about_me {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #picture {
+    display: none;
+  }
+
+  #text_about {
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+  }
+
+  #picture_mob {
+    margin-top:10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #contact_me h1 {
+    width: 20rem;
+    font-size: 1.8rem;
+    background-color: var(--green-color);
+  }
+
+  #contact_text {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  #contact_me img {
+    width: 10%;
+  }
+
+  /*Lower Menu*/
+
+  #lower_line {
+    display: none;
+  }
+
+  /*Lower Line*/
+
+  #lower_line_mob_menu {
+    background-color: var(--green-color);
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+}
