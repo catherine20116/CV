@@ -103,6 +103,67 @@ img {
 }
 
 
+/*Rate Me*/
+
+#rate_section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#rate_title {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  line-height: 4rem;
+}
+
+#rate_section h1 {
+  width: 20rem;
+  font-size: 1.8rem;
+  background-color: var(--green-color);
+}
+
+#rate_me {
+  border: #32292F 2px solid;
+}
+
+.rating {
+  position: relative;
+  width: 180px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .3em;
+  padding: 5px;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 2px #b3acac;
+}
+
+.rating__result {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-10px) translateX(-5px);
+  z-index: -9;
+  font: 3em Arial, Helvetica, sans-serif;
+  color: #ebebeb8e;
+  pointer-events: none;
+}
+
+.rating__star {
+  font-size: 1.3em;
+  cursor: pointer;
+  color: #dabd18b2;
+  transition: filter linear .3s;
+}
+
+.rating__star:hover {
+  filter: drop-shadow(1px 1px 4px gold);
+}
+
+
 /*Contact Me*/
 
 #contact_me {
@@ -121,6 +182,7 @@ img {
   width: 20rem;
   font-size: 1.8rem;
   background-color: var(--green-color);
+  border-radius: 50%;
 }
 
 #contact_text {
