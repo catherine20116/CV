@@ -16,7 +16,6 @@ initalBox.innerHTML = nameGuest;
 /*Rate Me Section*/
 
 let firstStar = document.getElementById('star1');
-console.log(firstStar);
 
 function changeImageFirstStar() {
     firstStar.src = './img/filled_star.png';
@@ -69,3 +68,4 @@ function changeImageFifthStar() {
 }
 
 fifthStar.addEventListener('click', changeImageFifthStar);
+
