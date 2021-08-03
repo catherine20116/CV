@@ -71,7 +71,7 @@ img {
   flex-direction: column;
 }
 
-#short_text h1 {
+#short_text h2 {
   font-size: 1.8rem;
 }
 
@@ -102,7 +102,7 @@ img {
   margin-left: 9.7rem;
 }
 
-#text_about h1 {
+#text_about h3 {
   font-size: 1.8rem;
 }
 
@@ -122,7 +122,7 @@ img {
   line-height: 4rem;
 }
 
-#rate_section h1 {
+#rate_section h2 {
   width: 20rem;
   font-size: 1.8rem;
   background-color: var(--green-color);
@@ -152,7 +152,7 @@ img {
   line-height: 4rem;
 }
 
-#contact_me h1 {
+#contact_me h2 {
   width: 20rem;
   font-size: 1.8rem;
   background-color: var(--green-color);
