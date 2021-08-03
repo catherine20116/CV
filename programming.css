@@ -24,6 +24,9 @@
   background-color: var(--green-color);
 }
 
+.circle-list li {
+  margin-top: 5px;
+}
 
 /*Full Screen adjustment*/
 

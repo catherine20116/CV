@@ -67,6 +67,15 @@ nav a {
     margin-bottom: 1rem;
 }
 
+.circle-list li {
+    list-style: circle;
+    margin-left: 20px;
+}
+
+.circle-list {
+    text-align: left;
+}
+
 img {
     width: 70%;
 }
@@ -90,6 +99,10 @@ img {
     margin-right: 7rem;
     margin-bottom: 2rem;
 }
+
+.circle-list {
+    list-style-type: square;
+} 
 
 .blocks_top{
     display: flex;
