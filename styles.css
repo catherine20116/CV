@@ -73,6 +73,7 @@ img {
 
 #short_text h2 {
   font-size: 1.8rem;
+  margin-bottom: 10px;
 }
 
 
@@ -84,10 +85,6 @@ img {
   background-color: var(--green-color);
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-#about_header h1 {
-  margin-bottom: 10px;
 }
 
 #about_me img {
@@ -104,6 +101,8 @@ img {
 
 #text_about h2 {
   font-size: 1.8rem;
+  margin-bottom: 10px;
+  word-spacing: 1px;
 }
 
 
